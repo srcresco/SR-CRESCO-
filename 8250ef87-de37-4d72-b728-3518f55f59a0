@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SR CRESCO | Grow • Prosper • Thrive</title>
+<meta name="description" content="SR CRESCO - Future Agriculture knowledge, sustainable farming and agri-development.">
+<style>:root { --green: rgb(24,61,34); --green2: rgb(47,107,50); --gold: rgb(213,168,60); --cream: rgb(247,245,236); --dark: rgb(16,32,21); }* { box-sizing: border-box; margin: 0; padding: 0; }html {  }body { font-family: Arial, Helvetica, sans-serif; background: var(--cream); color: rgb(27, 40, 29); line-height: 1.6; }header { top: 0; z-index: 20; background: rgba(16, 32, 21, 0.96); border-bottom: 1px solid rgba(213, 168, 60, 0.35); }.nav { max-width: 1200px; margin: auto; padding: 10px 18px 10px 18px; display: flex; align-items: center; justify-content: space-between; }.nav img { width: 78px; height: 58px; object-fit: contain; }.navlinks { display: flex; gap: 18px; flex-wrap: wrap; justify-content: flex-end; }.navlinks a { color: rgb(255, 255, 255); text-decoration: none; font-weight: 700; font-size: 14px; }.navlinks a:hover { color: var(--gold); }.hero { min-height: 78vh; display: grid; text-align: center; padding: 55px 20px 55px 20px; background: linear-gradient(135deg, rgb(12, 33, 19), rgb(35, 79, 42)); }.hero img { width: min(calc(260px), calc(65vw)); border-radius: 18px; margin-bottom: 18px; box-shadow: 0 15px 45px rgb(0, 0, 0); }.hero h1 { letter-spacing: 5px; color: rgb(255, 255, 255); }.hero .tag { color: var(--gold); letter-spacing: 5px; font-weight: 800; margin: 8px 0 18px 0; }.hero p { max-width: 760px; margin: auto; color: rgb(232, 239, 232); font-size: 18px; }.btn { display: inline-block; margin-top: 25px; padding: 13px 24px 13px 24px; border-radius: 30px; background: var(--gold); color: rgb(24, 33, 21); text-decoration: none; font-weight: 800; }section { padding: 70px 20px 70px 20px; }.container { max-width: 1150px; margin: auto; }.title { text-align: center; margin-bottom: 38px; }.title h2 { font-size: 35px; color: var(--green); }.title p { color: rgb(102, 113, 102); }.about { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 35px; align-items: center; }.card { background: rgb(255, 255, 255); border-radius: 18px; padding: 28px; box-shadow: 0 8px 28px rgb(22, 53, 26); }.crops { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px; }.crop { background: rgb(255, 255, 255); border-radius: 16px; padding: 24px; text-align: center; border: 1px solid rgb(220, 229, 216); transition: initial 0.2s initial initial; }.crop:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgb(24, 61, 34); }.crop .icon { font-size: 42px; margin-bottom: 8px; }.crop h3 { color: var(--green); }.founder { display: grid; grid-template-columns: 320px 1fr; gap: 35px; align-items: center; }.founder img { width: 100%; border-radius: 18px; box-shadow: 0 12px 30px rgb(24, 61, 34); }.mission { background: var(--green); color: white; }.mission .title h2 { color: white; }.mission .title p { color: rgb(219, 231, 219); }.contact { text-align: center; }footer { background: rgb(13, 28, 17); color: rgb(223, 232, 223); text-align: center; padding: 28px 15px 28px 15px; }.email { color: var(--gold); font-weight: 700; }@media (max-width: 720px) { .navlinks { gap: 10px; }.navlinks a { font-size: 12px; }.about, .founder { grid-template-columns: 1fr; }.founder { max-width: 500px; margin: auto; } }</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<a href="#home"><img src="assets/sr-cresco-logo.png" alt="SR CRESCO Logo"></a>
+<nav class="navlinks">
+<a href="#home">Home</a><a href="#about">About</a><a href="#crops">Farming</a>
+<a href="#mission">Mission</a><a href="#founder">Founder</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section id="home" class="hero">
+<div>
+<img src="assets/sr-cresco-logo.png" alt="SR CRESCO">
+<h1>SR CRESCO</h1>
+<div class="tag">GROW • PROSPER • THRIVE</div>
+<p>Building knowledge for the future of agriculture — helping farmers understand modern, sustainable and profitable farming opportunities.</p>
+<a class="btn" href="#crops">Explore Farming</a>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<div class="title"><h2>About SR CRESCO</h2><p>A knowledge-focused agriculture initiative</p></div>
+<div class="about">
+<div class="card">
+<p>SR CRESCO is an agriculture-focused platform created to share practical knowledge about future agriculture, plantation crops, livestock, beekeeping, mushrooms and sustainable farm development.</p><br>
+<p>Our goal is to connect farmers and agriculture enthusiasts with useful information so they can plan better farms, understand modern methods and build long-term value.</p>
+</div>
+<div class="card"><h3>Our Focus</h3><p>🌱 Future Agriculture</p><p>🌴 Plantation Farming</p><p>🐝 Beekeeping</p><p>🐄 Dairy &amp; Livestock</p><p>🍄 Mushroom Farming</p><p>♻️ Sustainable Farming</p></div>
+</div>
+</div>
+</section>
+
+<section id="crops">
+<div class="container">
+<div class="title"><h2>Farming Knowledge</h2><p>Click a topic to explore A–Z farming information.</p></div>
+<div class="crops">
+<div class="crop"><div class="icon">🥥</div><h3>Coconut</h3><p>Planning, planting, care, irrigation &amp; harvesting</p></div>
+<div class="crop"><div class="icon">🥑</div><h3>Avocado</h3><p>Varieties, climate, orchard planning &amp; management</p></div>
+<div class="crop"><div class="icon">🌰</div><h3>Macadamia</h3><p>Orchard design, nutrition &amp; long-term planning</p></div>
+<div class="crop"><div class="icon">🍯</div><h3>Honey / Beekeeping</h3><p>Bee colonies, apiary planning &amp; honey production</p></div>
+<div class="crop"><div class="icon">🐄</div><h3>Dairy</h3><p>Cattle management, feeding &amp; farm planning</p></div>
+<div class="crop"><div class="icon">🌰</div><h3>Cashew</h3><p>Planting, orchard care &amp; production basics</p></div>
+<div class="crop"><div class="icon">🌴</div><h3>Dates</h3><p>Climate, varieties, orchard &amp; pollination basics</p></div>
+<div class="crop"><div class="icon">🍄</div><h3>Mushroom</h3><p>Growing environment, hygiene &amp; production basics</p></div>
+</div>
+</div>
+</section>
+
+<section id="mission" class="mission">
+<div class="container">
+<div class="title"><h2>Our Mission</h2><p>Knowledge that reaches every farmer</p></div>
+<div class="card" style="color: rgb(23, 35, 25);">
+<p>Our mission is to share future-agriculture knowledge with farmers across <strong>Karnataka, India and internationally</strong>, covering modern farming ideas, crop planning, sustainable practices, farm diversification and opportunities for the next generation of agriculture.</p>
+</div>
+</div>
+</section>
+
+<section id="founder">
+<div class="container">
+<div class="title"><h2>Founder</h2><p>The person behind SR CRESCO</p></div>
+<div class="founder">
+<img src="assets/founder-subhash-v-s.png" alt="Founder of SR CRESCO">
+<div class="card">
+<h2>Subhash V S</h2>
+<h3 style="color: rgb(109, 143, 50); margin: 5px 0 18px 0;">Founder, SR CRESCO</h3>
+<p>SR CRESCO was founded with a vision to promote better understanding of agriculture and future farming opportunities.</p>
+<p style="margin-top: 15px;"><strong>Location:</strong> Chamarajanagar, Karnataka, India - 571127</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+<div class="title"><h2>Contact SR CRESCO</h2><p>For agriculture-related communication</p></div>
+<div class="card">
+<p class="email">SRCRESCO@GMAIL.COM</p>
+<p class="email">SUBHASHVS955@GMAIL.COM</p>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<p>© 2026 SR CRESCO — GROW • PROSPER • THRIVE</p>
+<p>Future Agriculture Knowledge Platform</p>
+</footer>
+
+    <a href="https://chat.whatsapp.com/K1CE6RH9eDP7M3OoUISTG5?s=cl&amp;p=a&amp;mlu=4" target="_blank" rel="noopener" class="whatsapp-btn">Join WhatsApp Group</a>
+
+
+</body></html>
